@@ -1,0 +1,155 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    font-family: "Poppins", sans-serif;
+}
+body > div {
+    margin: 6% auto 0;
+    max-width: 800px;
+}
+/*  color main */
+
+.color-main{
+    color:rgb(39, 129, 129);
+}
+
+
+
+
+
+
+
+
+.heading{
+    margin: 0 0 30px 0 ;
+    text-align: center;
+}
+.heading_container{
+    font-family: 'Mea Culpa', cursive;
+    font-size: 50px;
+}
+.heading_by{
+    color: rgb(160, 150, 150);
+    padding-top: 3px;
+}
+.author{
+    font-family:  'Karla', sans-serif;
+    font-size: 25px;
+    color: rgb(116, 112, 112);
+}
+.indexing{
+    font-family: 'Pushster', cursive;
+}
+
+
+
+
+
+.contaier{
+    padding:  4px 30px;
+}
+
+/*  tabs items */
+.tabs{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    /* width: 100%; */
+}
+
+.tab-item{
+    width: 180px;
+    min-width: 100px;
+    padding: 16px 20px 11px 20px;
+    font-size: 20px;
+    text-align: center;
+    background-color: #fff;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom: 5px solid transparent;
+    cursor: pointer;
+
+    opacity: 0.6;
+    transition: all 0.5s ease;
+}
+.line {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 6px;
+    border-radius: 15px;
+    background-color: rgb(39, 129, 129); 
+    transition: all 0.2s ease;
+}
+
+.tab-icons{
+    position: relative;
+    font-size: 30px;
+    width:32px;
+    top: 2px;
+}
+
+.tab-item:hover {
+    opacity: 1;
+    background-color: rgba(120, 158, 158, 0.1);
+    border-color: rgba(194, 53, 100, 0.1);
+}
+
+.tab-item.active {
+    opacity: 1;
+}
+
+
+
+
+
+
+.tab-contents{
+    padding: 28px 0;
+}
+.tab-pane{
+    color: #333;
+    display: none;
+    
+}
+.tab-pane.active {
+    display: block;
+}
+.tab-pane-list li{
+    list-style: none;
+}
+.bold-text{
+    font-size: 20px;
+    font-family: 'Indie Flower', cursive;
+    font-weight: 600;
+}
+.description{
+    font-size: 20px;
+    font-family: 'Indie Flower', cursive;
+    padding-left:  5px;
+}
+
+.contact-items{
+    list-style: none;
+}
+.text-size{
+    font-size: 20px;
+    font-family: 'Indie Flower', cursive;
+    font-weight: 600;
+    
+}
+.text-none{
+    text-decoration: none;
+    font-family: 'Indie Flower', cursive;
+}
+
+.contact-link{
+    padding-left: 5px;
+    font-size: 20px;
+}
